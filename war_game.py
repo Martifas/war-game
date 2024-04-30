@@ -154,6 +154,7 @@ def play_war(
                 and len(second_player_cards) > 1
             ):
                 print("WAR CONTINUES!")
+                war_stash.extend([first_player_card, second_player_card])
                 continue
 
             else:
